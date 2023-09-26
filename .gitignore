@@ -1,0 +1,6 @@
+bazel-bin
+bazel-django_monorepo
+bazel-out
+bazel-testlogs
+
+__pycache__

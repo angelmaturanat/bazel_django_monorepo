@@ -1,0 +1,9 @@
+load("@pip//:requirements.bzl", "requirement")
+
+py_binary(
+  name = "manage",
+  srcs = ["manage.py"],
+  deps = [
+    requirement("Django")
+  ]
+)
